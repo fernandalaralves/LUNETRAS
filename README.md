@@ -1,6 +1,4 @@
-# Título
-
-LUNETRA
+# LUNETRA
 
 ## Descrição
 
