@@ -1,4 +1,4 @@
-# LUNETRA
+# LUNETRAS
 
 ## Descrição
 
