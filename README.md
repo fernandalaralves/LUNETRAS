@@ -20,7 +20,7 @@ O sistema foi concebido para substituir registros manuais, promovendo **automati
 
 ## 🎯 Objetivo Geral
 
-Criar um sistema que auxilie professores do **Ensino Fundamental I (1º ao 3º ano)** na avaliação, registro e acompanhamento dos protocolos de leitura e escrita, de acordo com a psicogênese da língua escrita, permitindo uma análise clara da evolução dos alunos ao longo do tempo.
+Criar um sistema que auxilie professores do **Ensino Fundamental I (1º ao 5º ano)** na avaliação, registro e acompanhamento dos protocolos de leitura e escrita, de acordo com a psicogênese da língua escrita, permitindo uma análise clara da evolução dos alunos ao longo do tempo.
 
 ---
 
@@ -56,9 +56,10 @@ Durante os períodos avaliativos (trimestrais ou bimestrais), os alunos são cla
 * Icônica
 * Garatuja
 * Pré-silábico
-* Silábico
-* Silábico-Alfabético
+* Silábico (com valor sonoro, sem valor sonoro)
 * Alfabético
+* Ortográfico
+  
 
 Esses registros, quando feitos manualmente, tornam-se morosos e difíceis de analisar ao longo do tempo.
 
@@ -71,7 +72,7 @@ O LUNETRAS surge da necessidade de **automatizar** e **organizar** esse processo
 ## 🏫 Contexto de Uso
 
 * Escolas públicas e privadas
-* Turmas do 1º ao 3º ano do Ensino Fundamental
+* Turmas do 1º ao 5º ano do Ensino Fundamental
 * Ambientes com acesso à internet
 * Uso em computadores, tablets ou celulares
 
@@ -104,7 +105,7 @@ O LUNETRAS pode ser utilizado em:
 
 ## 👥 Público-Alvo
 
-* Professores do 1º ao 3º ano
+* Professores do 1º ao 5º ano
 * Coordenadores pedagógicos
 
 **Perfil:**
@@ -166,19 +167,19 @@ O LUNETRAS pode ser utilizado em:
 
 ### Backend
 
-* API REST
-* Linguagem sugerida: Java / Node.js / Python (definição conforme equipe)
+* Django
+* Linguagem: Python 
 * Autenticação e criptografia de senhas
 
 ### Frontend
 
 * Interface Web Responsiva
 * HTML, CSS e JavaScript
-* Framework sugerido: React ou Vue.js
+* Framework sugerido: React 
 
 ### Banco de Dados
 
-* Relacional (MySQL ou PostgreSQL)
+* Relacional (SQLite)
 * Estrutura normalizada para alunos, turmas, avaliações e usuários
 
 ---
